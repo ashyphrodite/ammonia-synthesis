@@ -1,0 +1,241 @@
+<html>
+<head>
+  <title>Ammonia Synthesis</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="images/favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;700;900&display=swap" rel="stylesheet">
+  
+  <script defer type="text/javascript" src="app.js"></script>
+<head>
+
+<body>
+	<div class="tops" style="background-image: url(images/thumbnail2.jpg);">
+		<div class="title">
+			Ammonia<br>Synthesis
+		</div>
+		<div class="subtitle">
+			How a gift to mankind can simulatenously be a curse.
+		</div>
+
+	    <div style="text-align: center;">
+	    	<div class="button" onclick="start()">
+	    		<img src="images/down-arrows.png" class="button-arrow">
+	    	</div>
+	    </div>
+	    
+	</div>
+
+	<div class="divider" id="div1"></div>
+
+	<div class="body" id="bodyA">
+		<div class="content" id="contentA">
+			<div class="section" style="flex-direction: row;">
+				<div class="molecule-container hidden left">
+					<img src="images/diatomic-molecule.png" class="molecules left" style="transform: translate(20vw, -5vh) rotate(45deg);">
+					<img src="images/diatomic-molecule.png" class="molecules left" style="transform: translate(33vw, 1vh) rotate(25deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(0vw, -5vh) rotate(33deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(5vw, -15vh) rotate(125deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(20vw, -5vh) rotate(81deg);">
+				</div>
+				
+				<div class="paragraph hidden bottom" style="flex-basis: 55vw;">
+					<p style="display: inline; font-size: 4vw;">NITROGEN</p> is <b>essential</b> to all living things on Earth. It is the 4th most abundant element in the human body, needed to <b>make PROTEINS</b>. We get nitrogen from eating plants, which they get from the soil. However, <i>for every harvest</i>, the nitrogen from the soil is <i>depleted</i>. This ultimately leads to<br><b>lower crop yields</b>.
+				</div>
+				<div class="molecule-container hidden right">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(-20vw, 5vh) rotate(81deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(-20vw,  5vh) rotate(45deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(-33vw, -1vh) rotate(25deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(0vw, 5vh) rotate(33deg);">
+					<img src="images/diatomic-molecule.png" class="molecules" style="transform: translate(-5vw, 15vh) rotate(125deg);">
+					
+				</div>
+				
+			</div>
+			<div class="section left hidden">
+				<div class="subsection" style="flex-basis: 10vw; display: inline-flex; flex-direction: column;">
+					<img src="images/guano-island.png" id="guano-island">
+					<div class="caption">
+						A guano island in Mexico, <i>Isla Roca Partida</i>	
+					</div>
+				</div>
+				<div class="paragraph">
+					For a long time, people heavily relied on bird poop <b>GUANO</b> for nitrogen. This was <b>rare</b> and <b>expensive</b>; but more importantly, the supply of it was already <b>running out by 1870s</b>. Another method was needed to be done to get more nitrogen otherwise <b>people around the globe will be dying of starvation</b>.
+				</div>
+			</div>
+			<div class="section right hidden">
+				<div class="subsection" style="display: flex; flex-direction: column;">
+					<img src="images/atmosphere-graph.png" id="atm-graph">
+					<div class="caption" style="display: inline-flex; flex-direction: row; justify-content: center; column-gap: 1vw; margin-bottom: 1vh;">
+						<div style="width: 2vw; background-color: #FFD966;"></div>
+						<div>Nitrogen 78%</div>
+					</div>
+					<div class="caption" style="display: inline-flex; flex-direction: row; justify-content: center; column-gap: 1vw; margin-bottom: 1vh;">
+						<div style="width: 2vw; background-color: #2F5597;"></div>
+						<div>Oxygen 21%</div>
+					</div>
+					<div class="caption" style="display: inline-flex; flex-direction: row; justify-content: center; column-gap: 1vw; margin-bottom: 1vh;">
+						<div style="width: 2vw; background-color: #C55A11;"></div>
+						<div>Other gases 1%</div>
+					</div>
+				</div>
+				<div class="paragraph">
+					<p style="display: inline; font-size: 3vw;"><b>78%</b></p> of the Earth's atmosphere is nitrogen. There's a lot of nitrogen to go around, <i>so what's the problem then?</i> Well, it's in its <b>UNUSABLE</b> form. Nitrogen gas is composed of two <b>TRIPLE-BONDED</b> nitrogen atoms. Breaking this bond would take a <b>massive amount of energy</b>.
+				</div>
+			</div>
+			<div class="section left hidden" style="min-height: 70vh;">
+				<div class="subsection" id="anchor">
+					<div style="display:inline; align-content: center;"></div>
+					<img id="haber" src="images/FH_no-eyes.png">
+					<div id="eyes">
+						<div id="left-eye" >
+							<img class="eye left-eye"src="images/eye.png">
+						</div>
+						<div id="right-eye">
+							<img class="eye right-eye" src="images/eye.png">
+						</div>
+					</div>
+				</div>
+				<div class="paragraph">
+					This is where chemists needed to step up. For years, many chemists tried and failed. That is, until <p style="display: inline; font-size: 3vw;"><b>Fritz Haber</b></p> managed to make <p style="display: inline; font-size: 2.5vw;"><b>Ammonia</b></p> (NH<sub>3</sub>), a compound also found on bird poop, after working <i>tirelessly</i> on the problem for <b>5 years</b>. His idea was to <b>combine</b> <u>nitrogen gas</u> (N<sub>2</sub>) and <u>hydrogen gas</u> (H<sub>2</sub>) in <p style="display: inline;"><b>extreme pressure</b> and <b>extreme temperature</b></p>. To do this, <i>new technology</i> were made that can withstand such heat and pressure.
+				</div>
+			</div>
+			<div class="section" style="flex-direction: column; align-items: center;">
+				<div class="caption hidden top" style="font-size: 3vw;">
+					The Haber Process	
+				</div>
+				<img class="hidden" id="haberflow" src="images/haberflow.png">
+			</div>
+			<div class="section hidden right" style="flex-direction: row-reverse;">
+				<img src="images/nobel-prize-medal.png" id="medal">
+				<div class="paragraph">
+					Thanks to Haber's discovery, harvest yields grew <b>EXPONENTIALLY</b>. <u>Billions more</u> of people on Earth can now be <u>supported</u>. This is arguably one of the <b><i>most important discoveries</i></b> in the history. He received a <b>Nobel Prize for chemistry</b> in <b>1918</b>.
+				</div>
+			</div>
+			<div class="section" style="flex-direction: column; justify-content: center; align-items: center;">
+				<div class="caption hidden top" style="font-size: 3vw;">
+					World Population Chart
+				</div>
+				<img class="hidden bottom"src="images/world-pop.png" id="world-pop">
+			</div>
+			<div class="section" style="flex-direction: column; justify-content: center; align-items: center; row-gap: 5vh">
+				<div class="subtitle hidden bottom">
+					<b>Happy Ending?</b>
+				</div>
+				<div style="text-align: center;">
+			    	<div class="button" onclick="next()">
+			    		<img src="images/down-arrows.png" class="button-arrow">
+			    	</div>
+			    </div>
+			</div>
+		</div>
+	</div>
+
+	<div class="divider" id="div2"></div>
+
+	<div class="body" id="bodyB">
+		<div class="content" id="contentB">
+			<div class="section hidden bottom">
+				<div class="paragraph">
+					After Haber's discovery of ammonia, he <b>helped in World War I</b>. <b>Ammonium nitrate</b>, which can be <i>sythesized</i> by <b>combining</b> <u>ammonia</u> and <u>nitric acid</u>, while a rich fertilizer, was a key ingredient in the explosive <b>TNT (Trinitrotoluene)</b>. The fact that it takes a huge amount of energy to break the bond between nitrogen atoms, means that also a <b><i>huge amount of energy is released when nitrogen atoms combine</i></b>.
+				</div>
+			</div>
+			<div class="section">
+				<div>
+					<img class="hidden left" src="images/explosion.png" id="explosion">
+				</div>
+				<div class="paragraph hidden right">
+					The massive Beirut explosion that occured on <b>August 2020</b> was due to the storage of a <u>large amount of ammonium nitrate</u>. It <b>killed 218</b> people, <b>injured 7000</b>, and left <b>300,000 homeless</b>.	
+				</div>
+			</div>
+			<div class="section" style="flex-direction: column; height: 40vh;">
+				<div class="paragraph hidden top">
+					"You either die a hero, or live long enough to see yourself become the villain."
+				</div>
+				<div class="paragraph hidden right" style="padding-top: 5vh;text-align: right;">
+					-<b>Batman</b>, <i>The Dark Knight</i>
+				</div>
+			</div>
+			<div class="section hidden top">
+				<div class="paragraph">
+					Haber then spent his time working on poison gas research. He came up with <b>CHLORINE</b> gas, <u><b>very deadly even in low doses</b></u>. This <b>killed thousands</b> of soldiers during the war, <b>including allies</b>.
+				</div>
+			</div>
+			<div class="section hidden" style="transition: ease 4s;">
+				<div class="paragraph">
+					After the World War I, he and one of colleagues together made an <u>cyanide-based insecticide</u>, <b>Zyklon-A</b>. This insecticde then modified (Zyklon B) to <u>remove its detectable odor</u> which was used to perpetrate the <b>HOLOCAUST</b>.
+				</div>
+			</div>
+			<div class="section hidden top">
+				<div class="paragraph">
+					To this day, we are still experiencing the negatives of ammonia synthesis: increase in <b>water</b> and <b>air pollution</b>; the perturbation of <b>greenhouse-gas</b> levels; and the <b>loss of biodiversity</b> that was the result from the colossal increase in ammonia production.
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="about">
+		<div class="about-content">
+			<div>
+	    		<b style="font-size: 2.5vw;">Sources</b>
+		    </div>
+		    <div style="text-align:center;">
+		    	This was heavily based on Veritasium's Youtube Video <a href="https://www.youtube.com/watch?v=EvknN89JoWo">"The Man Who Saved Billions but Killed Millions"</a>. I highly recommend watching that video. 
+		    </div>
+		    <div class="about-padding"></div>
+		    <div style="display:flex; flex-direction: row; text-align: left; font-size: 0.75vw; width: 70vw; column-gap: 5vw;">
+		    	<div>
+			    	<div>
+			    		<b>Images:</b>
+			    	</div>
+			    	<div>
+						Fritz_haber_thumbnail: Veritasium/Youtube<br>
+						Fritz_Haber portrait: https://en.wikipedia.org/wiki/Fritz_Haber<br>
+						Guano Island: Photo: Lasertrimman/WikiCommons CC BY-SA 3.0<br>
+						Haber Process Schematic Diagram: https://chem.libretexts.org/Bookshelves/<br>Physical_and_Theoretical_Chemistry_Textbook_Maps/<br>Supplemental_Modules_(Physical_and_Theoretical_Chemistry)/Equilibria/<br>Le_Chateliers_Principle/The_Haber_Process<br>
+						World Population Chart: https://populationmatters.org/population-numbers<br><br>
+
+						wheat field: https://bsop.edu.ph/wheat-field-hd-wallpaper/<br>
+						crops growing: igorstevanovic/Shutterstock<br>
+						crowded people: Hydromet/istockphoto.com<br>
+						cows: https://www.greenerchoices.org/free-range/<br><br>
+
+						tnt storage: https://historydaily.org/women-workers-of-wwi<br>
+						beirut aftermath: https://www.bbc.com/news/world-middle-east-53668493<br>
+						beirut explosion: https://www.washingtonpost.com/world/2020/08/04/<br>beirut-explosion-ammonium-nitrate/<br>
+						chlorine_gas: Wikimedia<br>
+			    	</div>
+		    	</div>
+		    	<div>
+		    		<div>
+		    			<b>References:</b>
+		    		</div>
+		    		<div>
+		    			“How a century of ammonia synthesis changed the world,” Jan Willem Erisman1, Mark A. Sutton, James Galloway, Zbigniew Klimont, and Wilfried Winiwarte<br><br>
+
+						"The man who saved Billions and killed Millions," by Veritasium on Youtube. https://www.youtube.com/watch?v=EvknN89JoWo<br><br>
+
+						"Ammonia Synthesis - The double-edged sword". Sylvie Castonguay, https://www.wipo.int/wipo_magazine/en/2008/06/article_0011.html<br><br>
+		    		</div>
+		    		<div>
+		    			<b>Color Palletes:</b>
+		    		</div>
+		    		<div>
+		    			"Truest Green". https://offeo.com/learn/green-color-palette<br>
+						Red Color Scheme. schemecolor.com
+		    		</div>
+		    	</div>
+		    </div>
+		    
+		</div>
+	    
+
+	</div>
+
+	<div class="footer">
+		<div class="footer-text">
+			Made by <b>Ronaldo D. Dimaano Jr.</b> from scratch with love and some CSS tutorials for STS Project.
+		</div>
+	</div>
+</body>
+</html>
